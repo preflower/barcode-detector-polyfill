@@ -10,6 +10,7 @@
     "wasm",
     "webassembly"
   ],
+  "private": "false",
   "author": "F. Kasper <fkasper@modus-operandi.at>",
   "license": "MIT",
   "bugs": {
