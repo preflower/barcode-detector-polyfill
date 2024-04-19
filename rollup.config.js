@@ -70,16 +70,12 @@ export default [
 
     {
         // ES module and <script type="module">
-        // '@undecaf/zbar-wasm' is imported from a repository at runtime
         input,
         output: {
             file: pkg.exports['.'].default,
             format: 'esm',
             generatedCode: 'es2015',
-            sourcemap: true,
-            paths: {
-                [ZBAR_WASM_PKG_NAME]: `${ZBAR_WASM_REPOSITORY}/dist/main.js`,
-            },
+            sourcemap: true
         },
         external: [ZBAR_WASM_PKG_NAME],
         plugins,
