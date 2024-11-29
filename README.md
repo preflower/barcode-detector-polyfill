@@ -7,6 +7,8 @@
 [![](https://badgen.net/jsdelivr/hits/npm/@undecaf/barcode-detector-polyfill)](https://www.jsdelivr.com/package/npm/@undecaf/barcode-detector-polyfill)
 ![License](https://badgen.net/github/license/undecaf/barcode-detector-polyfill)
 
+> fork from @undecaf/barcode-detector-polyfill, but use dependency import @undecaf/zbar-wasm instead of dynmiac import
+
 This package polyfills the [Barcode Detection API](https://developer.mozilla.org/en-US/docs/Web/API/Barcode_Detection_API) for browsers,
 using a [WebAssembly build](https://github.com/undecaf/zbar-wasm#readme) of the 
 [ZBar Bar Code Reader](https://github.com/mchehab/zbar#readme) that is written in C/C++.
